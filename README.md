@@ -1,7 +1,12 @@
 ## Proyecto final para el curso Sistemas Operativos de la facultad de Ingenierías, Universidad del Valle Cali
 
 ## Integrantes:
-### Johan Sebastián Hernández V.      Andrés Gomez          Jhon Carlos Valencia P.
+
+#### Johan Sebastián Hernández V.
+
+#### Andrés Gomez.
+
+#### Jhon Carlos Valencia P.
 
 ## Enunciado:
 
