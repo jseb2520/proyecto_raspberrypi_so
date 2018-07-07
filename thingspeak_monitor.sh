@@ -7,7 +7,7 @@ cpu_usage=$(mpstat 4 1 | awk '$3 ~ /CPU/ { for(i=1;i<=NF;i++) { if ($i ~ /%idle/
 mem_usage=$(free -m | awk 'NR==2{printf "%.2f\n",$3*100/$2 }')
 
 #Carga de CPU
-cpu_load=$(uptime | awk '{print $11}')
+cpu_load=$(uptime | awk '{print $9}')
 
 #Almacenamiento disponible
 storage_avail=$(df -h | grep /dev/root | awk '{print $4}')
